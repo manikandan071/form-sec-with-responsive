@@ -1,0 +1,484 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+.title{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.title h2{
+    position: relative;
+    font-size: 27px;
+    color: hsl(207deg 42% 22%);
+}
+.title .underline::before{
+    content: "";
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 72px;
+    height: 1px;
+    background-color: #b3a899;
+}
+.title .underline::after{
+    content: "";
+    position: absolute;
+    top: 69px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 22px;
+    height: 3px;
+    background-color: hsl(42deg 97% 59%);
+}
+.title p{
+    font-size: 14px;
+    margin-top: 10px;
+    color: hsl(240deg 2% 47%);
+}
+.form-section{
+    display: flex;
+}
+.address-sec{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.sec1{
+    width: 100%;
+    padding: 10px;
+}
+.address-box{
+    padding: 27px 0 10px 0px;
+    box-shadow: 0 0 13px #5155804a;
+}
+.sec2{
+    width: 50%;
+    padding: 10px;
+}
+.contact-sec{
+    padding: 27px 0 10px 0px;
+    box-shadow: 0 0 13px #5155804a;
+}
+.address-box h2{
+    font-size: 20px;
+    margin-bottom: -5px;
+    color: hsl(240deg 2% 47%);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.address-box p{
+    font-size: 13px;
+    color: hsl(240deg 2% 47%);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.address-box i{
+    font-size: 35px;
+    color: hsl(42deg 98% 60%);
+}
+.contact-sec a{
+    text-decoration: none;
+    color: hsl(240deg 2% 47%);
+}
+.contact-sec h2{
+    font-size: 18px;
+    margin-bottom: 7px;
+    color: hsl(240deg 2% 47%);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.contact-sec span{
+    font-size: 12px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.contact-sec p{
+    font-size: 12px;
+    margin-top: 6px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.contact-sec i{
+    font-size: 25px;
+    color: hsl(42deg 98% 60%);
+}
+.form-sec{
+    width: 50%;
+    padding: 10px;
+}
+.user-input{
+    padding: 12px;
+    box-shadow: 0 0 13px #5155804a;
+}
+.form-box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-1{
+    width: 50%;
+    padding: 10px;
+}
+.col-2{
+    width: 100%;
+    padding: 10px;
+}
+input{
+    outline: none;
+    border: 1px solid hsl(240deg 11% 45% / 61%);
+}
+.message{
+    outline: none;
+    border: 1px solid hsl(240deg 11% 45% / 61%);
+}
+.username{
+    width: 100%;
+    padding: 10px;
+}
+.useremail{
+    width: 100%;
+    padding: 10px;
+}
+.subject{
+    width: 100%;
+    padding: 10px;
+}
+textarea{
+    width: 100%;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    padding: 5px 0 15px 0;
+}
+.btn-1{
+    width: 130px;
+    padding: 10px;
+    background-color: hsl(42deg 99% 60%);
+    border: hsl(42deg 99% 60%);
+    color: #ffffff;
+}
+
+
+@media (max-width: 990px){
+    .title{
+        text-align: center;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    .title h2{
+        position: relative;
+        font-size: 27px;
+        color: hsl(207deg 42% 22%);
+    }
+    .title .underline::before{
+        content: "";
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 72px;
+        height: 1px;
+        background-color: #b3a899;
+    }
+    .title .underline::after{
+        content: "";
+        position: absolute;
+        top: 69px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 22px;
+        height: 3px;
+        background-color: hsl(42deg 97% 59%);
+    }
+    .title p{
+        font-size: 14px;
+        margin-top: 10px;
+        color: hsl(240deg 2% 47%);
+    }
+    .form-section{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .address-sec{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .sec1{
+        width: 100%;
+        padding: 10px;
+    }
+    .address-box{
+        padding: 27px 0 10px 0px;
+        box-shadow: 0 0 13px #5155804a;
+    }
+    .sec2{
+        width: 50%;
+        padding: 10px;
+    }
+    .contact-sec{
+        padding: 27px 0 10px 0px;
+        box-shadow: 0 0 13px #5155804a;
+    }
+    .address-box h2{
+        font-size: 20px;
+        margin-bottom: -5px;
+        color: hsl(240deg 2% 47%);
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    .address-box p{
+        font-size: 13px;
+        color: hsl(240deg 2% 47%);
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    .address-box i{
+        font-size: 35px;
+        color: hsl(42deg 98% 60%);
+    }
+    .contact-sec a{
+        text-decoration: none;
+        color: hsl(240deg 2% 47%);
+    }
+    .contact-sec h2{
+        font-size: 18px;
+        margin-bottom: 7px;
+        color: hsl(240deg 2% 47%);
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    .contact-sec span{
+        font-size: 12px;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    .contact-sec p{
+        font-size: 12px;
+        margin-top: 6px;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    .contact-sec i{
+        font-size: 25px;
+        color: hsl(42deg 98% 60%);
+    }
+    .form-sec{
+        width: 100%;
+        padding: 10px;
+    }
+    .user-input{
+        padding: 12px;
+        box-shadow: 0 0 13px #5155804a;
+    }
+    .form-box{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .col-1{
+        width: 50%;
+        padding: 10px;
+    }
+    .col-2{
+        width: 100%;
+        padding: 10px;
+    }
+    input{
+        outline: none;
+        border: 1px solid hsl(240deg 11% 45% / 61%);
+    }
+    .message{
+        outline: none;
+        border: 1px solid hsl(240deg 11% 45% / 61%);
+    }
+    .username{
+        width: 100%;
+        padding: 10px;
+    }
+    .useremail{
+        width: 100%;
+        padding: 10px;
+    }
+    .subject{
+        width: 100%;
+        padding: 10px;
+    }
+    textarea{
+        width: 100%;
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
+        padding: 5px 0 15px 0;
+    }
+    .btn-1{
+        width: 130px;
+        padding: 10px;
+        background-color: hsl(42deg 99% 60%);
+        border: hsl(42deg 99% 60%);
+        color: #ffffff;
+    }
+}
+
+
+@media (max-width: 650px){
+    .title{
+        text-align: center;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    .title h2{
+        position: relative;
+        font-size: 27px;
+        color: hsl(207deg 42% 22%);
+    }
+    .title .underline::before{
+        content: "";
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 72px;
+        height: 1px;
+        background-color: #b3a899;
+    }
+    .title .underline::after{
+        content: "";
+        position: absolute;
+        top: 69px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 22px;
+        height: 3px;
+        background-color: hsl(42deg 97% 59%);
+    }
+    .title p{
+        font-size: 14px;
+        margin-top: 10px;
+        color: hsl(240deg 2% 47%);
+    }
+    .form-section{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .address-sec{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .sec1{
+        width: 100%;
+        padding: 10px;
+    }
+    .address-box{
+        padding: 27px 0 10px 0px;
+        box-shadow: 0 0 13px #5155804a;
+    }
+    .sec2{
+        width: 100%;
+        padding: 10px;
+    }
+    .contact-sec{
+        padding: 27px 0 10px 0px;
+        box-shadow: 0 0 13px #5155804a;
+    }
+    .address-box h2{
+        font-size: 20px;
+        margin-bottom: -5px;
+        color: hsl(240deg 2% 47%);
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    .address-box p{
+        font-size: 13px;
+        color: hsl(240deg 2% 47%);
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    .address-box i{
+        font-size: 35px;
+        color: hsl(42deg 98% 60%);
+    }
+    .contact-sec a{
+        text-decoration: none;
+        color: hsl(240deg 2% 47%);
+    }
+    .contact-sec h2{
+        font-size: 18px;
+        margin-bottom: 7px;
+        color: hsl(240deg 2% 47%);
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    .contact-sec span{
+        font-size: 12px;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    .contact-sec p{
+        font-size: 12px;
+        margin-top: 6px;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    .contact-sec i{
+        font-size: 25px;
+        color: hsl(42deg 98% 60%);
+    }
+    .form-sec{
+        width: 100%;
+        padding: 10px;
+    }
+    .user-input{
+        padding: 12px;
+        box-shadow: 0 0 13px #5155804a;
+    }
+    .form-box{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .col-1{
+        width: 100%;
+        padding: 10px;
+    }
+    .col-2{
+        width: 100%;
+        padding: 10px;
+    }
+    input{
+        outline: none;
+        border: 1px solid hsl(240deg 11% 45% / 61%);
+    }
+    .message{
+        outline: none;
+        border: 1px solid hsl(240deg 11% 45% / 61%);
+    }
+    .username{
+        width: 100%;
+        padding: 10px;
+    }
+    .useremail{
+        width: 100%;
+        padding: 10px;
+    }
+    .subject{
+        width: 100%;
+        padding: 10px;
+    }
+    textarea{
+        width: 100%;
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
+        padding: 5px 0 15px 0;
+    }
+    .btn-1{
+        width: 130px;
+        padding: 10px;
+        background-color: hsl(42deg 99% 60%);
+        border: hsl(42deg 99% 60%);
+        color: #ffffff;
+    }
+}
